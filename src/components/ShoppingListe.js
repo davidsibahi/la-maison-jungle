@@ -15,7 +15,7 @@ function ShoppingListe() {
                     <li key={cat}>{cat}</li>
                 ))}
             </ul>
-            <h3>Plante</h3>
+            <h3>Plantes</h3>
 
             <ul className="lmj-plant-list">
             {plantList.map((plant) => (
